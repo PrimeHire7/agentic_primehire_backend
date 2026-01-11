@@ -1,0 +1,159 @@
+﻿KV Kumar Reddy
+📞 +91 8142722551 | ✉️ kumarreddy012208@gmail.com
+
+Professional Summary:
+
+Result-oriented IT professional with 08 years of experience with the flowing areas with 06 years’ expertise in eBizNET and BY platforms (WMS & SCM Consultant) and 02 years of experience in the Banking and Payment domain in delivering Enterprise Solutions in Supply Chain and Warehouse Management Systems (WMS). Specializing in WMS & SCM Functional, technical, customizations, and production support. Proven track record in end-to-end WMS implementations, stakeholder engagement, training delivery, and 24/7 offshore support. Adept at using tools like MOCA, AppDynamics, Splunk, Oracle, SQL Server, and integrator modules for business-critical solutions. Additionally, possesses over 3 years of experience in software development and production support, including client-server systems using Oracle, PL/SQL, UNIX, and Informatica.
+
+Key Skills:
+
+    • Technologies: Oracle 10g/11g, SQL Developer, SQL Plus, TOAD, SQL Server
+    • Tools: DLX, Lexedit, Winmsql, MOCA, Page Builder, Label Designer, AppDynamics, Splunk, Advanced MS Excel & JIRA
+    • Platforms: Windows, UNIX, Linux
+    • WMS Expertise: BY (Blue Yonder) WMS, eBizNET WMS, JDA WMS, JDA Workforce Management
+    • Others: SQL Loader, D2K Reports 6i, Custom Integrator Development, Environment Setup.
+
+Employment History:
+
+Pure Software Technologies Pvt Ltd - Bangalore
+BY WMS Consultant (MAY 2021 – JUNE 2025)
+
+IBM India Pvt Ltd - Bangalore
+Senior System Engineer (OCT 2021 – APR 2022)
+
+Orient Technologies Pvt Ltd - Hyderabad
+Application Support Engineer 1 (JUNE 2020 – OCT 2021)
+
+7Hills Global Consulting Pvt Ltd - Hyderabad
+Software Engineer (APR 2017 – MARCH 2020)
+
+Education:
+
+Mechanical Engineering in MITS (Madanapalle) affiliated by JNTUA - 2016
+
+Major Projects:
+
+Project: BY WMS
+Client: Catch.com.au
+Company: Pure Software Technologies Pvt Ltd
+Duration: MAY 2022 – JUNE 2025
+
+
+Project Description:
+
+Catch.com.au provides online shopping stores and operates a customized delivery platform. It also offers products including home decor, accessories, health and lifestyle products, fashion, electronics, toys and games, furniture, beauty, grocery and liquor, appliances, and sportswear.
+
+Catch has been bringing great deals to everyday Aussies since we started shaking up online retail in 2006 We've grown a lot since then, but our core values have stayed the same. We've been a tight-knit family that loves to work hard since our founding days. Today, we have millions of products online, an exclusive membership program with 200,000+ subscribers, and a team full of creative and talented professionals who are always on the lookout for more like-minded individuals. Plus, as part of the Wesfarmers Group, we're in good company alongside other top Australian retailers Kmart, Target, Bunnings, and Officeworks.
+
+
+Roles and Responsibilities:
+    • Provided end-to-end functional support for BY WMS and Supply Chain Management, ensuring seamless operations post-implementation.
+    • Instrumental in troubleshooting BY WMS related issues by capturing logs/errors, coordinating root‑cause analysis, and delivering rapid solutions.
+    • Troubleshoot complex data and code issues; debug SQL, PL/SQL, scripts, identify errors, and escalate to Product Development or Change Control teams as required.
+    • Collaborated closely with cross-functional teams and clients, ensuring solutions were aligned, timely, and delivered with high satisfaction scores.
+    • Spearheaded end-to-end SCM and BY WMS support integrating supply chain workflows across procurement, inventory, warehouse operations, and distribution.
+    • Managed configuration, customization, and deployment of BY Warehouse & Workforce Management Systems enhancing order accuracy and reducing processing time.
+    • Collaborated cross-functionally (procurement, logistics) to align SCM strategies and system delivery, improving inventory turnover and reducing stock outs.
+    • Strong functional knowledge of SCM processes: receiving, put-away, replenishment, order picking/fulfillment, allocation.
+    • Managed offshore 24/7 system support, including bug fixes, enhancements, report generation, testing, and maintenance.
+    • Get in touch with operations closely and know their problems and look for improvements.
+    • Gathering requirements for new changes and collaborating with partners and implementing the solution.
+    • Done customizations for integrator module for getting new fields into the BY WMS system and same to send it to HOST.
+    • Did implementations of new client, carrier launching which includes configuration, label printing and workflow configuration.
+    • Training the team on the solution, fixing issues, providing work around.
+    • Doing the MOCA code changes according to the new requirement in BY WMS.
+    • Done the many complex config changes as per the customer requirements.
+    • Environmental maintenance, tracking the changes. 
+    • Stabilization of solutions
+    • Implementation done for new client and launched them successfully.
+    • Written algorithms and MOCA command as part of FBC project
+    • Interacting with stakeholders and working on ETAs and efforts and approvals etc.
+    • Delivered post-go-live support until project stability was achieved, minimizing disruptions and enhancing user satisfaction.
+Project: WMS
+Company: IBM India Pvt Ltd
+Duration: OCT 2021 – APR 2022
+Roles and Responsibilities:
+
+    • Supported and executed test cases for inbound receiving and put-away workflows, ensuring system functionality and compliance with business rules.
+    • Validated Advanced Shipping Notices (ASNs) by parsing and verifying multiple XML files for accurate inbound processing.
+    • Generated License Plate Numbers (LPNs) for both inbound and outbound operations to ensure seamless tracking and inventory movement.
+    • Configured and tested both system-directed and manual put-away strategies to align with warehouse layout and operational efficiency.
+    • Set up inventory movement rules to enable item transfers between active and reserve locations within the WMS.
+    • Configured core WMS components including Wave Management, Task Management, Location Setup, Wave Process Types, and Inventory Need Types.
+    • Conducted testing for partial shipments and validated RF (Radio Frequency) receive menus for handheld device compatibility.
+    • Tested PIX transactions to monitor and validate inventory movement and real-time updates.
+    • Created and configured Put Methods, Pick Methods, Put Rules, Pick Rules, SKUs, and SKU Dimensions, ensuring accurate warehouse task execution.
+    • Performed back-end testing using SQL queries to validate data integrity across multiple tables and ensure accurate system behavior.
+
+Project: Banking
+Client: NPCI (National Payment Corporation of India)
+Company: Orient Technologies Pvt Ltd 
+Duration: JUNE 2020 – OCT 2021
+
+Roles and Responsibilities:
+
+    • Monitored and validated critical financial applications including AEPS, IMPS, UPI, RGCS, and NFS, ensuring continuous support for day-to-day business operations.
+    • Utilized Linux commands to monitor system logs, identify discrepancies, and proactively resolve performance or process issues.
+    • Provided data extraction and analysis using SQL queries to fulfil business requirements and generate operational reports.
+    • Collaborated with cross-functional teams to perform system patching, drill activities, and ensure successful implementation with minimal downtime.
+    • Generated and delivered discrepancy reports during settlement cycles; served as the SPOC (Single Point of Contact) for alerts across financial applications, ensuring resolution within defined TAT (Turnaround Time).
+    • Conducted Root Cause Analysis (RCA) for recurring issues and created knowledge base articles to streamline future issue resolution and support documentation.
+    • Managed disk space utilization, conducted log backups and restoration, and maintained overall system health for high-availability environments.
+    • Developed and managed security encryption tools and keys for various banks, supporting the decryption of encrypted financial reports for bank users.
+    • Maintained comprehensive documentation for job codes, issue trackers, SOPs, and daily operational workflows to ensure transparency and knowledge sharing.
+
+Project: EBIZNET WMS
+Clients: Gati, Maruti, Ferries Marketing Inc (FMI)
+Company: 7Hills Global Consulting Pvt Ltd
+Duration: APR 2017 – MARCH 2020
+
+Project Description:
+
+7Hills WMS Product WMS includes below functionality of the warehouse management
+system. Receiving (Inbound), Inventory Management which includes cycle count,
+inventory adjustment/transfer with/without work. RF support functionality, Shipping
+(Outbound) and various interface for the Inbound and outbound. 7Hills provides a supply
+chain execution technology platform for fast growing and emerging companies
+worldwide. It meets all supply chain execution needs involving warehousing, distribution,
+transportation and service logistics. 7Hills technology ecosystem delivers intelligent,
+collaborative, synchronized and affordable supply chain execution solutions even as it
+integrates seamlessly with all ERP and legacy systems.
+Today’s businesses rely substantially on their supply chains to deliver them their
+competitive edge. Increasingly, supply chain execution excellence differentiates
+successful organizations from the rest. Having complete control over the supply chain
+enables organizations create sustainable value for their customers. At 7Hills, we built a
+product that addresses your every perceivable supply chain execution need, catering to
+the entire spectrum of Supply Chain operations from goods entry at port to the point of
+consumption and subsequent dispatch of value-added goods across trans-continental
+gateways. The 7Hills Suite address the end-to-end supply chain footprint of operations
+requirements including:
+
+    • Distribution Solutions (warehousing and yard management)
+    • Transportation Solutions (including multi-modal transportation)
+    • Reverse Logistics
+
+Roles and Responsibilities:
+
+Inbound Process – Warehouse Management System (WMS) / Supply Chain Management (SCM)
+
+    • Managed end-to-end inbound operations from Purchase Order (PO) download to warehouse inventory availability.
+    • Maintained and tracked PO lifecycle starting with EDIT status in base tables.
+    • Oversaw Receipt Creation process, including support for AUTO RECEIPT configuration to streamline customer-specific workflows.
+    • Conducted Check-In process for PO items, including item condition validation (e.g., good/damaged/broken), and facilitated automated LP (License Plate) generation based on system configuration for pallets, cases, or individual units and enabled AUTO CHECK-IN for automation based on selected suppliers.
+    • Enabled Manual Check-In, allowing users to define LPs and quantities during customized workflows.
+    • Executed Putaway Process using configurable options like AUTO BREAK DOWN and AUTO ASSIGN PUTAWAY, improving storage efficiency.
+    • Utilized Location Exception Handling to override system-suggested locations based on operational insights.
+    • Ensured accurate inventory placement through Confirm Putaway, completing the physical move of items into designated rack/slot locations.
+    • Collaborated with cross-functional teams to enhance WMS automation, improve warehouse operational efficiency, and meet customer-specific SCM workflow requirements
+
+Outbound Process – Warehouse Management System (WMS) / Supply Chain Management (SCM)
+
+    • Collaborated with cross-functional teams to enhance WMS automation, improve warehouse operational efficiency, and meet customer-specific SCM workflow requirements
+    • Managed Sales Order (SO) intake through automated download from NetSuite (NS) to Pure Software, with additional capability to manually create SOs within the WMS system.
+    • Performed Wave Creation, grouping related orders (e.g., zone-based) to optimize picker efficiency and reduce order fulfilment turnaround time.
+    • Executed Order-Level and Order-Line Level Wave Creation, inserting records into wave tables and updating order statuses from Edit (E) to Ware Creation (W).
+    • Oversaw Pick Generation, allocating inventory to wave-based orders; ensured stock accuracy and prevented over-allocation to avoid failed picks.
+    • Managed Pick Confirmation, reducing inventory and allocation quantities, inserting License Plate (LP) records for outbound tracking, and updating status from G to C.
+    • Handled Loading Process, including trailer creation and loading of picked orders; inserted records into carton and pallet label tables, with status transition from C to L.
+    • Supported LTL (Less-Than-Truckload) shipments, enabling automatic trailer creation and carrier assignment based on SKU dimensions at ware creation stage.
+    • Conducted Trailer Departure, releasing completed orders from Load (L) to Outbound (O) status through WMS trailer management screen.

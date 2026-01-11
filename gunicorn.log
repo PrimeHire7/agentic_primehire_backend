@@ -1,0 +1,2212 @@
+nohup: ignoring input
+[2026-01-10 09:15:18 +0000] [1737405] [INFO] Starting gunicorn 23.0.0
+[2026-01-10 09:15:18 +0000] [1737405] [INFO] Listening at: http://0.0.0.0:8000 (1737405)
+[2026-01-10 09:15:18 +0000] [1737405] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2026-01-10 09:15:18 +0000] [1737407] [INFO] Booting worker with pid: 1737407
+[2026-01-10 09:15:18 +0000] [1737411] [INFO] Booting worker with pid: 1737411
+[2026-01-10 09:15:18 +0000] [1737412] [INFO] Booting worker with pid: 1737412
+[2026-01-10 09:15:18 +0000] [1737413] [INFO] Booting worker with pid: 1737413
+[2026-01-10 09:15:18 +0000] [1737414] [INFO] Booting worker with pid: 1737414
+[2026-01-10 09:15:18 +0000] [1737415] [INFO] Booting worker with pid: 1737415
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+[0;93m2026-01-10 09:15:27.905532256 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 09:15:28.267046673 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 09:15:28.380717276 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 09:15:28.381217800 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 09:15:28.394686895 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 09:15:28.615543929 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036539.654257 1737743 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036539.672122 1737749 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036539.789700 1737749 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] Started server process [1737407]
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] Waiting for application startup.
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] Application startup complete.
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] ('172.31.34.168', 29770) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [0c83091afba84ec5ad36f89ec70db185]
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] connection open
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] ('172.31.34.168', 38256) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [45b102714eba4f3dab7f2c85c589fec9]
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] connection open
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] ('172.31.34.168', 29792) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [79b95824f4b64edcb05d0e70598faf25]
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] connection open
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] ('172.31.34.168', 21410) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [6de9ddf184d544d4a9e401a3683210a1]
+[2026-01-10 09:15:40 +0000] [1737407] [INFO] connection open
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036541.289880 1737802 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036541.322640 1737808 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036541.362519 1737808 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036541.714383 1737819 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036541.753208 1737829 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036541.853544 1737828 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 09:15:42 +0000] [1737414] [INFO] Started server process [1737414]
+[2026-01-10 09:15:42 +0000] [1737414] [INFO] Waiting for application startup.
+[2026-01-10 09:15:42 +0000] [1737414] [INFO] Application startup complete.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036542.292080 1737837 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+W0000 00:00:1768036542.311447 1737840 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+W0000 00:00:1768036542.373624 1737840 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036542.412667 1737843 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036542.426918 1737849 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[2026-01-10 09:15:42 +0000] [1737413] [INFO] Started server process [1737413]
+[2026-01-10 09:15:42 +0000] [1737413] [INFO] Waiting for application startup.
+[2026-01-10 09:15:42 +0000] [1737413] [INFO] Application startup complete.
+W0000 00:00:1768036542.468837 1737850 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768036542.501552 1737854 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036542.521267 1737857 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768036542.555901 1737858 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 09:15:42 +0000] [1737412] [INFO] Started server process [1737412]
+[2026-01-10 09:15:42 +0000] [1737412] [INFO] Waiting for application startup.
+[2026-01-10 09:15:42 +0000] [1737412] [INFO] Application startup complete.
+[2026-01-10 09:15:42 +0000] [1737415] [INFO] Started server process [1737415]
+[2026-01-10 09:15:42 +0000] [1737415] [INFO] Waiting for application startup.
+[2026-01-10 09:15:42 +0000] [1737415] [INFO] Application startup complete.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 09:15:42 +0000] [1737411] [INFO] Started server process [1737411]
+[2026-01-10 09:15:42 +0000] [1737411] [INFO] Waiting for application startup.
+[2026-01-10 09:15:42 +0000] [1737411] [INFO] Application startup complete.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:app.mcp.tools.matcher_tool:[MATCHER] Took 9.25s
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8000/mcp/tools/match/send_mail "HTTP/1.1 200 OK"
+W0000 00:00:1768036929.198789 1737749 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/insightface/utils/transform.py:68: FutureWarning: `rcond` parameter will change to the default of machine precision times ``max(M, N)`` where M and N are the input matrix dimensions.
+To use the future default and silence this warning we advise to pass `rcond=None`, to keep using the old, explicitly pass `rcond=-1`.
+  P = np.linalg.lstsq(X_homo, Y)[0].T # Affine matrix. 3 x 4
+🟡 Initializing database...
+🟢 Database ready.
+📂 Loaded 1 WhatsApp responses from disk.
+📂 Loaded WhatsApp responses from disk: 1 entries
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/2d106det.onnx landmark_2d_106 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/det_10g.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/genderage.onnx genderage ['None', 3, 96, 96] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/w600k_r50.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+
+=============== JD MATCH PROFILES START ===============
+[MATCHER DEBUG] JD Meta: {'role': 'Generative AI Engineer', 'location': 'Hyderabad', 'years_experience': 5, 'skills': ['machine learning', 'llm', 'generative models', 'deep learning', 'aws', 'agents', 'natural language processing', 'rag']}
+[MATCHER DEBUG] Pinecone matches: 150
+[MATCHER DEBUG] Candidates after dedup+cap: 40
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+❌ Invalid interview link
+candidate_id: nareshtinnaluri7365@gmail.com
+jd_id: 1
+token: JD_90f68275
+
+
+================ SCHEDULER START ================
+📩 Incoming Payload: {'candidate_id': 'nareshtinnaluri7365@gmail.com', 'candidate_name': 'Naresh Tinnaluri', 'candidate_email': 'nareshtinnaluri7365@gmail.com', 'jd_id': '1', 'jd_token': 'JD_90f68275', 'start_iso': '2026-01-10T09:19:00.000Z', 'end_iso': '2026-01-10T09:49:00.000Z'}
+✅ Created attempt: 23
+❌ Invalid interview link
+candidate_id: nareshtinnaluri7365@gmail.com
+jd_id: 1
+token: JD_90f68275
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+
+========== MCQ GENERATION ==========
+Attempt ID: 23
+JD ID: 1
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:09 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 167, 'left': 284, 'bottom': 372, 'right': 489}]
+🧭 Head pose pitch=19.6 yaw=-15.4 roll=-169.7
+🗂 Registered face loaded: saved_faces/nareshtinnaluri7365_gmail_com__attempt_23.png
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 1
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7227
+📈 Similarity history (last 5): [0.7226907014846802]
+📊 Avg similarity: 0.7227
+👁 Blink count: 0
+🧍 Still frames: 0
+🧠 Liveness: False
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:11 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 172, 'left': 298, 'bottom': 369, 'right': 495}]
+🧭 Head pose pitch=15.4 yaw=-23.1 roll=-172.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 2
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7158
+📈 Similarity history (last 5): [0.7226907014846802, 0.7157718539237976]
+📊 Avg similarity: 0.7192
+👁 Blink count: 0
+🧍 Still frames: 0
+🧠 Liveness: False
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:12 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 165, 'left': 283, 'bottom': 371, 'right': 489}]
+🧭 Head pose pitch=18.1 yaw=-18.8 roll=-173.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 3
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7032
+📈 Similarity history (last 5): [0.7226907014846802, 0.7157718539237976, 0.7031761407852173]
+📊 Avg similarity: 0.7139
+👁 Blink count: 0
+🧍 Still frames: 0
+🧠 Liveness: False
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:13 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 163, 'left': 281, 'bottom': 373, 'right': 491}]
+👁 Blink detected (count=1) - EAR avg=0.353
+🧭 Head pose pitch=9.6 yaw=-6.0 roll=8.3
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 4
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7440
+📈 Similarity history (last 5): [0.7226907014846802, 0.7157718539237976, 0.7031761407852173, 0.7440052628517151]
+📊 Avg similarity: 0.7214
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:14 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+🟦 Detected faces: 1 boxes: [{'top': 171, 'left': 283, 'bottom': 377, 'right': 489}]
+🧭 Head pose pitch=25.3 yaw=-17.0 roll=-174.7
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 5
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6895
+📈 Similarity history (last 5): [0.7226907014846802, 0.7157718539237976, 0.7031761407852173, 0.7440052628517151, 0.6895459890365601]
+📊 Avg similarity: 0.715
+👁 Blink count: 1
+🧍 Still frames: 1
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:16 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 167, 'left': 273, 'bottom': 373, 'right': 479}]
+🧭 Head pose pitch=20.3 yaw=-18.3 roll=-175.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 6
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6798
+📈 Similarity history (last 5): [0.7157718539237976, 0.7031761407852173, 0.7440052628517151, 0.6895459890365601, 0.6797815561294556]
+📊 Avg similarity: 0.7092
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:17 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 166, 'left': 275, 'bottom': 366, 'right': 475}]
+🧭 Head pose pitch=18.7 yaw=-17.2 roll=-175.5
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 7
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6962
+📈 Similarity history (last 5): [0.7031761407852173, 0.7440052628517151, 0.6895459890365601, 0.6797815561294556, 0.6961989998817444]
+📊 Avg similarity: 0.7073
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+GPT RAW MCQ: {
+  "mcq": [
+    {
+      "question": "When designing a retrieval-augmented generation (RAG) system for a chatbot that utilizes large language models (LLMs), which architectural decision would best ensure low latency while maintaining high accuracy in responses?",
+      "options": [
+        "A) Use a single monolithic service that handles both retrieval and generation to minimize network overhead.",
+        "B) Implement a microservices architecture where the retrieval and generation components are separate, allowing for independent scaling.",
+        "C) Store all possible responses in a cache to avoid retrieval altogether.",
+        "D) Use a synchronous API call from the generation model to the retrieval model to ensure immediate access to data."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "While debugging a generative AI model that occasionally produces nonsensical outputs, you notice that the model's input preprocessing step is inconsistent. What is the most effective way to identify the root cause of this issue?",
+      "options": [
+        "A) Increase the model's training data size to improve performance.",
+        "B) Log the raw inputs and the preprocessed outputs for a subset of requests to identify discrepancies.",
+        "C) Change the model architecture to a more complex one to handle edge cases better.",
+        "D) Ignore the issue if it occurs infrequently, as it may not impact overall performance."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "In a scenario where your generative AI application is experiencing significant latency during peak usage times, which optimization technique would be most effective in improving performance?",
+      "options": [
+        "A) Increase the instance size of your AWS EC2 instances to handle more requests.",
+        "B) Implement model quantization to reduce the size of the model and improve inference speed.",
+        "C) Use a single-threaded approach to handle requests sequentially to avoid context switching.",
+        "D) Disable logging to reduce I/O overhead during peak times."
+      ],
+      "correct": "B"
+    },
+    {
+      "question": "You are integrating an external API for a generative AI application, but you notice that the API call is being made with incorrect parameters, leading to failures. Which of the following mistakes is most likely causing this issue?",
+      "options": [
+        "A) The API endpoint URL is incorrect, but the parameters are fine.",
+        "B) The parameters are being sent in the wrong format, such as sending JSON instead of form data.",
+        "C) The API key used for authentication is valid but has insufficient permissions.",
+        "D) The timeout settings for the API call are too short, causing premature termination."
+      ],
+      "correct": "B"
+    }
+  ]
+}
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:18 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 165, 'left': 269, 'bottom': 369, 'right': 473}]
+🧭 Head pose pitch=21.1 yaw=-15.7 roll=-176.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 8
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6765
+📈 Similarity history (last 5): [0.7440052628517151, 0.6895459890365601, 0.6797815561294556, 0.6961989998817444, 0.6765396595001221]
+📊 Avg similarity: 0.7035
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:19 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 163, 'left': 263, 'bottom': 376, 'right': 476}]
+🧭 Head pose pitch=20.1 yaw=-14.6 roll=-176.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 9
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6938
+📈 Similarity history (last 5): [0.6895459890365601, 0.6797815561294556, 0.6961989998817444, 0.6765396595001221, 0.6937699317932129]
+📊 Avg similarity: 0.7024
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:20 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 154, 'left': 260, 'bottom': 364, 'right': 470}]
+🧭 Head pose pitch=18.9 yaw=-10.3 roll=-176.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 10
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6759
+📈 Similarity history (last 5): [0.6797815561294556, 0.6961989998817444, 0.6765396595001221, 0.6937699317932129, 0.675876259803772]
+📊 Avg similarity: 0.6997
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=tab_switch frame=NO
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:21 attempt=23 event=tab_switch
+🟡 Event: tab_switch msg=Tab switch detected
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:21 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 152, 'left': 257, 'bottom': 364, 'right': 469}]
+🧭 Head pose pitch=17.2 yaw=-9.7 roll=-176.5
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 11
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7198
+📈 Similarity history (last 5): [0.6961989998817444, 0.6765396595001221, 0.6937699317932129, 0.675876259803772, 0.7198432087898254]
+📊 Avg similarity: 0.7016
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:22 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 158, 'left': 258, 'bottom': 370, 'right': 470}]
+🧭 Head pose pitch=20.8 yaw=-9.0 roll=-176.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 12
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7115
+📈 Similarity history (last 5): [0.6765396595001221, 0.6937699317932129, 0.675876259803772, 0.7198432087898254, 0.7114781737327576]
+📊 Avg similarity: 0.7024
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:24 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 156, 'left': 257, 'bottom': 366, 'right': 467}]
+🧭 Head pose pitch=18.4 yaw=-9.2 roll=-177.3
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 13
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7424
+📈 Similarity history (last 5): [0.6937699317932129, 0.675876259803772, 0.7198432087898254, 0.7114781737327576, 0.7423643469810486]
+📊 Avg similarity: 0.7055
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:25 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 157, 'left': 260, 'bottom': 363, 'right': 466}]
+🧭 Head pose pitch=20.1 yaw=-8.0 roll=-177.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 14
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7084
+📈 Similarity history (last 5): [0.675876259803772, 0.7198432087898254, 0.7114781737327576, 0.7423643469810486, 0.7084140181541443]
+📊 Avg similarity: 0.7057
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:26 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 155, 'left': 259, 'bottom': 362, 'right': 466}]
+🧭 Head pose pitch=21.7 yaw=-5.8 roll=-176.9
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 15
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7410
+📈 Similarity history (last 5): [0.7198432087898254, 0.7114781737327576, 0.7423643469810486, 0.7084140181541443, 0.7409828901290894]
+📊 Avg similarity: 0.708
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:28 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 227, 'left': 243, 'bottom': 430, 'right': 446}]
+🧭 Head pose pitch=55.5 yaw=-6.9 roll=-176.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 16
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.4157
+📈 Similarity history (last 5): [0.7114781737327576, 0.7423643469810486, 0.7084140181541443, 0.7409828901290894, 0.4156874716281891]
+📊 Avg similarity: 0.6898
+⚠️ Mismatch streak +1 → 1
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:29 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 257, 'left': 244, 'bottom': 450, 'right': 437}]
+🧭 Head pose pitch=55.0 yaw=-7.8 roll=-177.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 17
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3958
+📈 Similarity history (last 5): [0.7423643469810486, 0.7084140181541443, 0.7409828901290894, 0.4156874716281891, 0.3958416283130646]
+📊 Avg similarity: 0.6725
+⚠️ FACE MISMATCH DETECTED (instant)
+📊 face_mismatch count → 1
+⚠️ Mismatch streak +1 → 2
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+⚠ Anomaly triggered: {'type': 'face_mismatch', 'severity': 'warning', 'msg': 'Live face does not match registered face', 'similarity': 0.3958416283130646}
+🔴 Anomaly detected: {'type': 'face_mismatch', 'msg': 'Live face does not match registered face', 'timestamp': '2026-01-10 09:22:29'}
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:31 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 244, 'left': 252, 'bottom': 446, 'right': 454}]
+🧭 Head pose pitch=59.4 yaw=-11.1 roll=-176.9
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 18
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3329
+📈 Similarity history (last 5): [0.7084140181541443, 0.7409828901290894, 0.4156874716281891, 0.3958416283130646, 0.33289438486099243]
+📊 Avg similarity: 0.6536
+⚠️ Mismatch streak +1 → 3
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+🚨🚨 CONFIRMED FACE MISMATCH TRIGGERED 🚨🚨
+==================================================
+
+⚠ Anomaly triggered: {'type': 'face_mismatch_confirmed', 'severity': 'critical', 'msg': 'Confirmed face mismatch with liveness detected', 'similarity': 0.33289438486099243, 'duration_sec': 1}
+🔴 Anomaly detected: {'type': 'face_mismatch_confirmed', 'msg': 'Confirmed face mismatch with liveness detected', 'timestamp': '2026-01-10 09:22:31'}
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:32 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 244, 'left': 249, 'bottom': 443, 'right': 448}]
+🧭 Head pose pitch=58.2 yaw=-11.3 roll=-176.9
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 19
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3253
+📈 Similarity history (last 5): [0.7409828901290894, 0.4156874716281891, 0.3958416283130646, 0.33289438486099243, 0.32532423734664917]
+📊 Avg similarity: 0.6363
+⚠️ Mismatch streak +1 → 1
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:33 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 246, 'left': 253, 'bottom': 443, 'right': 450}]
+🧭 Head pose pitch=58.6 yaw=-10.5 roll=-176.3
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 20
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3529
+📈 Similarity history (last 5): [0.4156874716281891, 0.3958416283130646, 0.33289438486099243, 0.32532423734664917, 0.3528522253036499]
+📊 Avg similarity: 0.6222
+⚠️ Mismatch streak +1 → 2
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:34 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 248, 'left': 252, 'bottom': 439, 'right': 443}]
+🧭 Head pose pitch=58.7 yaw=-9.8 roll=-175.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 21
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3719
+📈 Similarity history (last 5): [0.3958416283130646, 0.33289438486099243, 0.32532423734664917, 0.3528522253036499, 0.37194448709487915]
+📊 Avg similarity: 0.6102
+⚠️ Mismatch streak +1 → 3
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:35 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 254, 'left': 246, 'bottom': 451, 'right': 443}]
+🧭 Head pose pitch=54.2 yaw=-12.0 roll=-177.5
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 22
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3418
+📈 Similarity history (last 5): [0.33289438486099243, 0.32532423734664917, 0.3528522253036499, 0.37194448709487915, 0.3417862057685852]
+📊 Avg similarity: 0.598
+⚠️ Mismatch streak +1 → 4
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:37 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 244, 'left': 250, 'bottom': 446, 'right': 452}]
+🧭 Head pose pitch=57.5 yaw=-8.9 roll=-177.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 23
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.3315
+📈 Similarity history (last 5): [0.32532423734664917, 0.3528522253036499, 0.37194448709487915, 0.3417862057685852, 0.331470251083374]
+📊 Avg similarity: 0.5864
+⚠️ Mismatch streak +1 → 5
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:38 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 151, 'left': 248, 'bottom': 360, 'right': 457}]
+🧭 Head pose pitch=8.3 yaw=1.0 roll=4.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 24
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7990
+📈 Similarity history (last 5): [0.3528522253036499, 0.37194448709487915, 0.3417862057685852, 0.331470251083374, 0.7989542484283447]
+📊 Avg similarity: 0.5953
+✅ Match recovered, resetting streak
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:39 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 142, 'left': 257, 'bottom': 344, 'right': 459}]
+🧭 Head pose pitch=-1.5 yaw=4.6 roll=6.7
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 25
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8311
+📈 Similarity history (last 5): [0.37194448709487915, 0.3417862057685852, 0.331470251083374, 0.7989542484283447, 0.8311498761177063]
+📊 Avg similarity: 0.6047
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:40 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 144, 'left': 253, 'bottom': 346, 'right': 455}]
+🧭 Head pose pitch=4.6 yaw=3.3 roll=5.3
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 26
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8185
+📈 Similarity history (last 5): [0.3417862057685852, 0.331470251083374, 0.7989542484283447, 0.8311498761177063, 0.8185327053070068]
+📊 Avg similarity: 0.613
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:41 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 149, 'left': 247, 'bottom': 356, 'right': 454}]
+🧭 Head pose pitch=10.5 yaw=7.3 roll=5.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 27
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7574
+📈 Similarity history (last 5): [0.331470251083374, 0.7989542484283447, 0.8311498761177063, 0.8185327053070068, 0.7574314475059509]
+📊 Avg similarity: 0.6183
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+
+================ PROCESS ANSWER ================
+🟡 RAW FORM VALUES
+  init: true <class 'str'>
+  token: df89d31f-1790-434d-b201-b10b4016318a
+  candidate: naresh tinnaluri nareshtinnaluri7365@gmail.com
+  jd_id: 1
+  audio_present: False
+🟡 ATTEMPT FOUND: True
+🟢 ATTEMPT ID: 23
+🟡 STATUS: SCHEDULED
+🟡 NOW: 2026-01-10 09:22:42.940097+00:00
+🟡 WINDOW: 2026-01-10 09:19:00+00:00 → 2026-01-10 09:49:00+00:00
+🟢 TRANSITION → IN_PROGRESS
+🟡 TRANSCRIPT PATH: logs/interviews/attempt_23.json
+🟢 NEW TRANSCRIPT CREATED
+🟢 INIT CALL RECEIVED
+🟡 AI MESSAGE COUNT: 0
+🟢 FIRST QUESTION: Tell me about yourself.
+🟢 FIRST QUESTION SAVED
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:43 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 151, 'left': 249, 'bottom': 365, 'right': 463}]
+🧭 Head pose pitch=6.3 yaw=-6.1 roll=3.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 28
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7132
+📈 Similarity history (last 5): [0.7989542484283447, 0.8311498761177063, 0.8185327053070068, 0.7574314475059509, 0.7132138609886169]
+📊 Avg similarity: 0.6217
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:44 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 148, 'left': 244, 'bottom': 370, 'right': 466}]
+🧭 Head pose pitch=6.0 yaw=-9.1 roll=3.7
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 29
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7499
+📈 Similarity history (last 5): [0.8311498761177063, 0.8185327053070068, 0.7574314475059509, 0.7132138609886169, 0.7499209642410278]
+📊 Avg similarity: 0.6261
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:45 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 144, 'left': 249, 'bottom': 355, 'right': 460}]
+🧭 Head pose pitch=4.2 yaw=-1.5 roll=3.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 30
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8127
+📈 Similarity history (last 5): [0.8185327053070068, 0.7574314475059509, 0.7132138609886169, 0.7499209642410278, 0.8126885294914246]
+📊 Avg similarity: 0.6323
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:46 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 159, 'left': 228, 'bottom': 398, 'right': 467}]
+🧭 Head pose pitch=24.3 yaw=-0.8 roll=-173.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 31
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6965
+📈 Similarity history (last 5): [0.7574314475059509, 0.7132138609886169, 0.7499209642410278, 0.8126885294914246, 0.6964678764343262]
+📊 Avg similarity: 0.6315
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:47 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 126, 'left': 194, 'bottom': 411, 'right': 479}]
+🧭 Head pose pitch=22.8 yaw=-13.5 roll=-176.2
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 32
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6555
+📈 Similarity history (last 5): [0.7132138609886169, 0.7499209642410278, 0.8126885294914246, 0.6964678764343262, 0.655525267124176]
+📊 Avg similarity: 0.6295
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:49 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 133, 'left': 194, 'bottom': 414, 'right': 475}]
+🧭 Head pose pitch=25.4 yaw=0.5 roll=-174.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 33
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7088
+📈 Similarity history (last 5): [0.7499209642410278, 0.8126885294914246, 0.6964678764343262, 0.655525267124176, 0.7087567448616028]
+📊 Avg similarity: 0.6296
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+
+================ PROCESS ANSWER ================
+🟡 RAW FORM VALUES
+  init: false <class 'str'>
+  token: df89d31f-1790-434d-b201-b10b4016318a
+  candidate: naresh tinnaluri nareshtinnaluri7365@gmail.com
+  jd_id: 1
+  audio_present: True
+🟡 ATTEMPT FOUND: True
+🟢 ATTEMPT ID: 23
+🟡 STATUS: IN_PROGRESS
+🟡 NOW: 2026-01-10 09:22:50.036609+00:00
+🟡 WINDOW: 2026-01-10 09:19:00+00:00 → 2026-01-10 09:49:00+00:00
+🟡 TRANSCRIPT PATH: logs/interviews/attempt_23.json
+🟡 EXISTING TRANSCRIPT LOADED
+🟢 AUDIO RECEIVED
+🎙 Transcribing audio: temp_23_efad9416e716499c81be5fe8eb16c777.webm
+📝 AssemblyAI transcript ID: 0bf59dca-dba0-494a-93a7-4be4fd569cc3
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:52 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 144, 'left': 278, 'bottom': 362, 'right': 496}]
+🧭 Head pose pitch=7.3 yaw=-28.0 roll=-175.0
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 34
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6695
+📈 Similarity history (last 5): [0.8126885294914246, 0.6964678764343262, 0.655525267124176, 0.7087567448616028, 0.6695370674133301]
+📊 Avg similarity: 0.6272
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:53 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:53 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:53 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🔴 Anomaly detected: {'type': 'absence', 'msg': 'No face detected.', 'timestamp': '2026-01-10 09:22:53'}INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:54 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+✅ Transcription completed: Hi, I'm nareshti naluri.
+🟢 TRANSCRIBED TEXT: Hi, I'm nareshti naluri.
+🟢 ANALYSIS DONE
+🤖 Generating next question with history:
+Ai: Tell me about yourself.
+User: Hi, I'm nareshti naluri.
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:55 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:55 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 133, 'left': 191, 'bottom': 331, 'right': 390}]
+🧭 Head pose pitch=5.5 yaw=-14.8 roll=-2.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 40
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.7458
+📈 Similarity history (last 5): [0.6964678764343262, 0.655525267124176, 0.7087567448616028, 0.6695370674133301, 0.7457997798919678]
+📊 Avg similarity: 0.629
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+➡️ Next question: Thank you for the introduction, Nareshti. Can you share your experience with large language models (LLMs) and how you've applied them in your previous projects?
+🟢 NEXT QUESTION: Thank you for the introduction, Nareshti. Can you share your experience with large language models (LLMs) and how you've applied them in your previous projects?
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:56 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 139, 'left': 279, 'bottom': 349, 'right': 489}]
+🧭 Head pose pitch=8.5 yaw=-17.3 roll=10.6
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 41
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6783
+📈 Similarity history (last 5): [0.655525267124176, 0.7087567448616028, 0.6695370674133301, 0.7457997798919678, 0.678349494934082]
+📊 Avg similarity: 0.629
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:57 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 137, 'left': 268, 'bottom': 351, 'right': 482}]
+🧭 Head pose pitch=14.3 yaw=-22.5 roll=-174.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 42
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6550
+📈 Similarity history (last 5): [0.7087567448616028, 0.6695370674133301, 0.7457997798919678, 0.678349494934082, 0.6550227403640747]
+📊 Avg similarity: 0.6276
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:22:58 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 129, 'left': 264, 'bottom': 347, 'right': 482}]
+🧭 Head pose pitch=16.1 yaw=-17.9 roll=-175.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 43
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6530
+📈 Similarity history (last 5): [0.6695370674133301, 0.7457997798919678, 0.678349494934082, 0.6550227403640747, 0.6530151963233948]
+📊 Avg similarity: 0.6268
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:00 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 156, 'left': 0, 'bottom': 359, 'right': 203}]
+🧭 Head pose pitch=-31.7 yaw=59.6 roll=133.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 44
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.5947
+📈 Similarity history (last 5): [0.7457997798919678, 0.678349494934082, 0.6550227403640747, 0.6530151963233948, 0.5946603417396545]
+📊 Avg similarity: 0.6235
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:01 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 202, 'left': 490, 'bottom': 385, 'right': 640}]
+🧭 Head pose pitch=-4.8 yaw=-23.6 roll=51.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 45
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.4357
+📈 Similarity history (last 5): [0.678349494934082, 0.6550227403640747, 0.6530151963233948, 0.5946603417396545, 0.43572303652763367]
+📊 Avg similarity: 0.6155
+⚠️ Mismatch streak +1 → 1
+👁 Blink count: 1
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:02 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 160, 'left': 426, 'bottom': 361, 'right': 627}]
+👁 Blink detected (count=2) - EAR avg=0.326
+🧭 Head pose pitch=-27.3 yaw=-51.4 roll=-130.7
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 46
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6635
+📈 Similarity history (last 5): [0.6550227403640747, 0.6530151963233948, 0.5946603417396545, 0.43572303652763367, 0.6634809970855713]
+📊 Avg similarity: 0.6136
+✅ Match recovered, resetting streak
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:03 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 101, 'left': 255, 'bottom': 312, 'right': 466}]
+🧭 Head pose pitch=-1.1 yaw=-1.3 roll=-0.3
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 47
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8387
+📈 Similarity history (last 5): [0.6530151963233948, 0.5946603417396545, 0.43572303652763367, 0.6634809970855713, 0.8386856913566589]
+📊 Avg similarity: 0.6179
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:04 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 108, 'left': 257, 'bottom': 323, 'right': 472}]
+🧭 Head pose pitch=3.3 yaw=-2.1 roll=-1.0
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 48
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8403
+📈 Similarity history (last 5): [0.5946603417396545, 0.43572303652763367, 0.6634809970855713, 0.8386856913566589, 0.8402682542800903]
+📊 Avg similarity: 0.6211
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:05 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 109, 'left': 253, 'bottom': 326, 'right': 470}]
+🧭 Head pose pitch=3.9 yaw=-5.3 roll=-1.8
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 49
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8151
+📈 Similarity history (last 5): [0.43572303652763367, 0.6634809970855713, 0.8386856913566589, 0.8402682542800903, 0.8151451945304871]
+📊 Avg similarity: 0.6247
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:06 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 109, 'left': 253, 'bottom': 322, 'right': 466}]
+🧭 Head pose pitch=4.2 yaw=-5.5 roll=-2.5
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 50
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8428
+📈 Similarity history (last 5): [0.6634809970855713, 0.8386856913566589, 0.8402682542800903, 0.8151451945304871, 0.8428286910057068]
+📊 Avg similarity: 0.6281
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:08 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 109, 'left': 251, 'bottom': 323, 'right': 465}]
+🧭 Head pose pitch=5.5 yaw=-2.5 roll=-2.5
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 51
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8205
+📈 Similarity history (last 5): [0.8386856913566589, 0.8402682542800903, 0.8151451945304871, 0.8428286910057068, 0.8204761743545532]
+📊 Avg similarity: 0.6416
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:09 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 107, 'left': 248, 'bottom': 322, 'right': 463}]
+🧭 Head pose pitch=4.7 yaw=-5.6 roll=-3.4
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 52
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8411
+📈 Similarity history (last 5): [0.8402682542800903, 0.8151451945304871, 0.8428286910057068, 0.8204761743545532, 0.8411149978637695]
+📊 Avg similarity: 0.6564
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:10 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 101, 'left': 243, 'bottom': 323, 'right': 465}]
+🧭 Head pose pitch=5.8 yaw=0.7 roll=-2.7
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 53
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8341
+📈 Similarity history (last 5): [0.8151451945304871, 0.8428286910057068, 0.8204761743545532, 0.8411149978637695, 0.8341454267501831]
+📊 Avg similarity: 0.6731
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+===============================
+EVALUATE TRANSCRIPT
+===============================
+Attempt: 23
+Candidate: naresh tinnaluri nareshtinnaluri7365@gmail.com
+mcq_result: present
+coding_result: present
+📄 Transcript entries loaded: 3
+---------------------------------------------------
+Conversation Preview:
+  1. AI: Tell me about yourself.
+  2. USER: Hi, I'm nareshti naluri.
+  3. AI: Thank you for the introduction, Nareshti. Can you share your experience with large language models (LLMs) and how you've applied them in your previous projects?
+---------------------------------------------------
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:11 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 108, 'left': 244, 'bottom': 326, 'right': 462}]
+🧭 Head pose pitch=6.0 yaw=1.7 roll=-2.8
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 54
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.8145
+📈 Similarity history (last 5): [0.8428286910057068, 0.8204761743545532, 0.8411149978637695, 0.8341454267501831, 0.8144563436508179]
+📊 Avg similarity: 0.6894
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:12 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 109, 'left': 226, 'bottom': 353, 'right': 470}]
+🧭 Head pose pitch=18.0 yaw=-6.2 roll=175.1
+
+================ FACE MATCH DEBUG ================
+🧑 Candidate: nareshtinnaluri7365@gmail.com | ID: nareshtinnaluri7365@gmail.com
+📸 Frame: 55
+👤 Live embedding: OK
+🗂 Registered embedding: OK
+🔍 Similarity score: 0.6950
+📈 Similarity history (last 5): [0.8204761743545532, 0.8411149978637695, 0.8341454267501831, 0.8144563436508179, 0.695033073425293]
+📊 Avg similarity: 0.7009
+👁 Blink count: 2
+🧍 Still frames: 0
+🧠 Liveness: True
+🎯 Thresholds → STRONG>0.8 SUSP<0.55 CRIT<0.45
+==================================================
+
+
+🟢 [FACE-MONITOR RAW] attempt=23 event=None frame=YES
+
+🟢 [FACE-MONITOR] 2026-01-10 09:23:14 attempt=23 event=None
+📸 Frame received for: nareshtinnaluri7365@gmail.com
+🔍 Frame shape: (640, 480)
+🟦 Detected faces: 1 boxes: [{'top': 106, 'left': 237, 'bottom': 341, 'right': 472}]
+🧭 Head pose pitch=15.3 yaw=-11.2 roll=175.5
+
+================ FACE MATCH DEBUG ================INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-10 09:23:34 +0000] [1737411] [INFO] ('172.31.34.168', 5464) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [a0dcbf92c8e44a18a68438e323d0f1e6]
+[2026-01-10 09:23:34 +0000] [1737411] [INFO] connection open
+INFO:primehire:🔌 WS DISCONNECTED [a0dcbf92c8e44a18a68438e323d0f1e6]
+[2026-01-10 09:23:37 +0000] [1737411] [INFO] connection closed
+[2026-01-10 09:23:39 +0000] [1737412] [INFO] ('172.31.34.168', 5494) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [ba5cf73e45db41bd96ea8a9ece4824a1]
+[2026-01-10 09:23:39 +0000] [1737412] [INFO] connection open
+🟡 Initializing database...
+🟢 Database ready.
+📂 Loaded 1 WhatsApp responses from disk.
+📂 Loaded WhatsApp responses from disk: 1 entries
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/1k3d68.onnx landmark_3d_68 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/2d106det.onnx landmark_2d_106 ['None', 3, 192, 192] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/det_10g.onnx detection [1, 3, '?', '?'] 127.5 128.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/genderage.onnx genderage ['None', 3, 96, 96] 0.0 1.0
+Applied providers: ['CPUExecutionProvider'], with options: {'CPUExecutionProvider': {}}
+find model: /home/ubuntu/.insightface/models/buffalo_l/w600k_r50.onnx recognition ['None', 3, 112, 112] 127.5 127.5
+set det-size: (640, 640)
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses {
+  "918885999458": {
+    "type": "button",
+    "payload": "Available",
+    "text": "Available"
+  }
+}
+📥 Fetching WhatsApp responses[2026-01-10 10:21:22 +0000] [1737415] [INFO] ('172.31.34.168', 2402) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [a93745e5db90499f9ed5374847a0a7e6]
+[2026-01-10 10:21:22 +0000] [1737415] [INFO] connection open
+INFO:primehire:🔌 WS DISCONNECTED [0c83091afba84ec5ad36f89ec70db185]
+[2026-01-10 10:21:36 +0000] [1737407] [INFO] connection closed
+INFO:primehire:🔌 WS DISCONNECTED [6de9ddf184d544d4a9e401a3683210a1]
+[2026-01-10 10:21:37 +0000] [1737407] [INFO] connection closed
+INFO:primehire:🔌 WS DISCONNECTED [45b102714eba4f3dab7f2c85c589fec9]
+[2026-01-10 10:21:38 +0000] [1737407] [INFO] connection closed
+INFO:primehire:🔌 WS DISCONNECTED [79b95824f4b64edcb05d0e70598faf25]
+[2026-01-10 10:21:44 +0000] [1737407] [INFO] connection closed
+[2026-01-10 10:30:47 +0000] [1737411] [WARNING] Invalid HTTP request received.
+[2026-01-10 10:30:48 +0000] [1737413] [WARNING] Invalid HTTP request received.
+[2026-01-10 10:30:52 +0000] [1737415] [WARNING] Invalid HTTP request received.
+[2026-01-10 10:57:36 +0000] [1737411] [WARNING] Invalid HTTP request received.
+[2026-01-10 11:01:28 +0000] [1737412] [INFO] ('172.31.34.168', 6056) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [dab11b7f805e444ba5f8f5dcc391f667]
+[2026-01-10 11:01:28 +0000] [1737412] [INFO] connection open
+INFO:primehire:🔌 WS DISCONNECTED [dab11b7f805e444ba5f8f5dcc391f667]
+[2026-01-10 11:02:00 +0000] [1737412] [INFO] connection closed
+[2026-01-10 11:02:17 +0000] [1737411] [INFO] ('172.31.34.168', 11108) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [7752dc69f7ec4adda7e5733eb01c89f4]
+[2026-01-10 11:02:17 +0000] [1737411] [INFO] connection open
+INFO:primehire:🔌 WS DISCONNECTED [7752dc69f7ec4adda7e5733eb01c89f4]
+[2026-01-10 11:02:52 +0000] [1737411] [INFO] connection closed
+[2026-01-10 11:46:28 +0000] [1737411] [INFO] ('172.31.23.57', 14938) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [d588ebbd21ef4eaebbb52e37205517a8]
+[2026-01-10 11:46:28 +0000] [1737411] [INFO] connection open
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:primehire:🔌 WS DISCONNECTED [d588ebbd21ef4eaebbb52e37205517a8]
+[2026-01-10 11:48:30 +0000] [1737411] [INFO] connection closed
+[2026-01-10 11:56:17 +0000] [1737412] [INFO] ('172.31.23.57', 45826) - "WebSocket /ws" [accepted]
+INFO:primehire:🌐 WS CONNECTED [21b992938e934c8cbf0a89f686f70287]
+[2026-01-10 11:56:17 +0000] [1737412] [INFO] connection open
+INFO:primehire:🔌 WS DISCONNECTED [21b992938e934c8cbf0a89f686f70287]
+[2026-01-10 11:57:39 +0000] [1737412] [INFO] connection closed
+INFO:primehire:🔌 WS DISCONNECTED [a93745e5db90499f9ed5374847a0a7e6]
+INFO:primehire:🔌 WS DISCONNECTED [ba5cf73e45db41bd96ea8a9ece4824a1]
+[2026-01-10 12:11:40 +0000] [1737415] [INFO] connection closed
+[2026-01-10 12:11:40 +0000] [1737412] [INFO] connection closed
+[2026-01-10 15:32:54 +0000] [1737405] [INFO] Handling signal: hup
+[2026-01-10 15:32:54 +0000] [1737405] [INFO] Hang up: Master
+[2026-01-10 15:32:54 +0000] [1740146] [INFO] Booting worker with pid: 1740146
+[2026-01-10 15:32:54 +0000] [1740147] [INFO] Booting worker with pid: 1740147
+[2026-01-10 15:32:54 +0000] [1740148] [INFO] Booting worker with pid: 1740148
+[2026-01-10 15:32:54 +0000] [1740150] [INFO] Booting worker with pid: 1740150
+[2026-01-10 15:32:54 +0000] [1740149] [INFO] Booting worker with pid: 1740149
+[2026-01-10 15:32:54 +0000] [1740151] [INFO] Booting worker with pid: 1740151
+[2026-01-10 15:32:55 +0000] [1737405] [ERROR] Worker (pid:1737407) was sent SIGHUP!
+[2026-01-10 15:32:55 +0000] [1737405] [ERROR] Worker (pid:1737412) was sent SIGHUP!
+[2026-01-10 15:32:55 +0000] [1737405] [ERROR] Worker (pid:1737413) was sent SIGHUP!
+[2026-01-10 15:32:55 +0000] [1737405] [ERROR] Worker (pid:1737411) was sent SIGHUP!
+[2026-01-10 15:32:56 +0000] [1737405] [ERROR] Worker (pid:1737415) was sent SIGHUP!
+[2026-01-10 15:32:56 +0000] [1737405] [ERROR] Worker (pid:1737414) was sent SIGHUP!
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+WARNING:app.mcp.server_core:MCP FastMCP unavailable; running in fallback dispatcher mode. Error: cannot import name 'tool' from 'mcp.server.fastmcp' (/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/mcp/server/fastmcp/__init__.py)
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:mailmind:Connected to Pinecone index: primehire-production-v2
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: resume.extract_and_store
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: jd.generate.v3
+INFO:app.mcp.server_core:Registered fallback tool: zoho.fetch_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+INFO:app.mcp.server_core:Registered fallback tool: matcher.match_candidates
+[0;93m2026-01-10 15:33:03.637665557 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 15:33:03.845685081 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 15:33:04.053329894 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 15:33:04.704988897 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 15:33:04.844907370 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+[0;93m2026-01-10 15:33:04.870002461 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+/home/ubuntu/miniconda3/envs/agentic_primehire_env/lib/python3.11/site-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'
+  warnings.warn(
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059195.707421 1740421 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059195.746015 1740428 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059195.844373 1740428 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059196.643110 1740452 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+W0000 00:00:1768059196.674064 1740456 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+W0000 00:00:1768059196.768000 1740457 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+[2026-01-10 15:33:16 +0000] [1740149] [INFO] Started server process [1740149]
+[2026-01-10 15:33:16 +0000] [1740149] [INFO] Waiting for application startup.
+[2026-01-10 15:33:16 +0000] [1740149] [INFO] Application startup complete.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 15:33:17 +0000] [1740151] [INFO] Started server process [1740151]
+[2026-01-10 15:33:17 +0000] [1740151] [INFO] Waiting for application startup.
+[2026-01-10 15:33:17 +0000] [1740151] [INFO] Application startup complete.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059197.803440 1740494 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059197.844000 1740500 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059197.930232 1740499 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059198.488074 1740509 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.506779 1740510 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[2026-01-10 15:33:18 +0000] [1740148] [INFO] Started server process [1740148]
+[2026-01-10 15:33:18 +0000] [1740148] [INFO] Waiting for application startup.
+[2026-01-10 15:33:18 +0000] [1740148] [INFO] Application startup complete.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059198.554904 1740514 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.575042 1740518 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.578579 1740510 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1768059198.603656 1740525 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.611025 1740518 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.620910 1740528 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1768059198.654313 1740528 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: candidate.validate
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+INFO:app.mcp.server_core:Registered fallback tool: resume.list_candidates
+[2026-01-10 15:33:18 +0000] [1740147] [INFO] Started server process [1740147]
+[2026-01-10 15:33:18 +0000] [1740147] [INFO] Waiting for application startup.
+[2026-01-10 15:33:18 +0000] [1740147] [INFO] Application startup complete.
+[2026-01-10 15:33:19 +0000] [1740150] [INFO] Started server process [1740150]
+[2026-01-10 15:33:19 +0000] [1740150] [INFO] Waiting for application startup.
+[2026-01-10 15:33:19 +0000] [1740150] [INFO] Application startup complete.
+[2026-01-10 15:33:19 +0000] [1740146] [INFO] Started server process [1740146]
+[2026-01-10 15:33:19 +0000] [1740146] [INFO] Waiting for application startup.
+[2026-01-10 15:33:19 +0000] [1740146] [INFO] Application startup complete.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:app.mcp.tools.candidate_validation:Candidate validation result: {'ok': True, 'document_type': 'PAN_CARD', 'is_valid_pan_card': True, 'pan_numbers': ['PXDPS4300E'], 'validation': {'valid_name': False, 'message': '❌ PAN card name mismatch or unclear. Please upload a valid PAN card with better lighting.'}, 'debug': ['🚀 Starting candidate validation pipeline.', '🖼️ Image detected — extracting text via OCR.', '🧠 OCR text extracted from image (len=94).', '📜 OCR text extracted (92 chars).', "🔍 PAN keywords found: ['INCOME TAX DEPARTMENT', 'INCOME TAX']", "🔢 PAN pattern matches: ['PXDPS4300E']", '✅ Confirmed Indian PAN card (high confidence).', '🧩 Sending prompt to GPT-4 API.', '✅ GPT-4 API response received.', '✅ GPT response parsed successfully.']}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:app.mcp.tools.candidate_validation:Candidate validation result: {'ok': True, 'document_type': 'PAN_CARD', 'is_valid_pan_card': True, 'pan_numbers': ['PXDPS4300E'], 'validation': {'valid_name': False, 'message': '❌ PAN card name mismatch or unclear. Please upload a valid PAN card with better lighting.'}, 'debug': ['🚀 Starting candidate validation pipeline.', '🖼️ Image detected — extracting text via OCR.', '🧠 OCR text extracted from image (len=94).', '📜 OCR text extracted (92 chars).', "🔍 PAN keywords found: ['INCOME TAX DEPARTMENT', 'INCOME TAX']", "🔢 PAN pattern matches: ['PXDPS4300E']", '✅ Confirmed Indian PAN card (high confidence).', '🧩 Sending prompt to GPT-4 API.', '✅ GPT-4 API response received.', '✅ GPT response parsed successfully.']}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:app.mcp.tools.candidate_validation:Candidate validation result: {'ok': True, 'document_type': 'PAN_CARD', 'is_valid_pan_card': True, 'pan_numbers': ['PXDPS4300E'], 'validation': {'valid_name': False, 'message': '❌ PAN card name mismatch or unclear. Please upload a valid PAN card with better lighting.'}, 'debug': ['🚀 Starting candidate validation pipeline.', '🖼️ Image detected — extracting text via OCR.', '🧠 OCR text extracted from image (len=292).', '📜 OCR text extracted (290 chars).', "🔍 PAN keywords found: ['INCOME TAX DEPARTMENT', 'GOVT', 'PERMANENT ACCOUNT NUMBER', 'INCOME TAX']", "🔢 PAN pattern matches: ['PXDPS4300E']", '✅ Confirmed Indian PAN card (high confidence).', '🧩 Sending prompt to GPT-4 API.', '✅ GPT-4 API response received.', '✅ GPT response parsed successfully.']}
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:app.mcp.tools.candidate_validation:Candidate validation result: {'ok': True, 'document_type': 'PAN_CARD', 'is_valid_pan_card': True, 'pan_numbers': ['PXDPS4300E'], 'validation': {'valid_name': False, 'message': '❌ PAN card name mismatch or unclear. Please upload a valid PAN card with better lighting.'}, 'debug': ['🚀 Starting candidate validation pipeline.', '🖼️ Image detected — extracting text via OCR.', '🧠 OCR text extracted from image (len=292).', '📜 OCR text extracted (290 chars).', "🔍 PAN keywords found: ['INCOME TAX DEPARTMENT', 'GOVT', 'PERMANENT ACCOUNT NUMBER', 'INCOME TAX']", "🔢 PAN pattern matches: ['PXDPS4300E']", '✅ Confirmed Indian PAN card (high confidence).', '🧩 Sending prompt to GPT-4 API.', '✅ GPT-4 API response received.', '✅ GPT response parsed successfully.']}
+INFO:httpx:HTTP Request: POST http://127.0.0.1:8000/mcp/tools/match/send_mail "HTTP/1.1 200 OK"
+[2026-01-10 17:12:02 +0000] [1740147] [WARNING] Invalid HTTP request received.
+[2026-01-10 17:12:02 +0000] [1740146] [WARNING] Invalid HTTP request received.
+[2026-01-10 21:22:53 +0000] [1740146] [WARNING] Invalid HTTP request received.
+[2026-01-11 04:43:17 +0000] [1740150] [WARNING] Invalid HTTP request received.
+[2026-01-11 04:44:25 +0000] [1740150] [WARNING] Invalid HTTP request received.
+[2026-01-11 04:47:10 +0000] [1740147] [WARNING] Invalid HTTP request received.

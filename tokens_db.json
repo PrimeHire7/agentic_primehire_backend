@@ -1,0 +1,10 @@
+{
+  "director@nirmataneurotech.com": {
+    "access_token": "1000.b5de17a63336d26b054a58fc3c80de6a.a7697a03cb6f97144177ce71bd61c2b8",
+    "refresh_token": "1000.cfed0675d2f11abd6fca21f38a3babf6.8d9c205d09eaa8f5bafe2a9b77a0c278",
+    "scope": "ZohoRecruit.modules.ALL",
+    "api_domain": "https://www.zohoapis.com",
+    "token_type": "Bearer",
+    "expires_in": 3600
+  }
+}
