@@ -157,13 +157,23 @@ def update_progress(filename: str, status: str, reason: str = None):
         with open(PROGRESS_FILE, "w") as f:
             json.dump(data, f, indent=2)
 
+from pdf2image import convert_from_path
+import pytesseract
+from PIL import Image
 
+def read_pdf_with_ocr(path: str) -> str:
+    pages = convert_from_path(path, dpi=300)
+    text = ""
+    for i, page in enumerate(pages):
+        t = pytesseract.image_to_string(page, lang="eng")
+        text += "\n" + t
+    return text.strip()
 
 def read_resume(file_path: str) -> str:
     """
     Robust text extractor for resumes.
     Supports: .pdf, .docx, .doc, .rtf, .txt, images (.png/.jpg/.jpeg)
-    Uses multiple fallbacks to maximize extraction success.
+    Uses multiple fallbacks + OCR.
     Always returns a string.
     """
     try:
@@ -186,7 +196,9 @@ def read_resume(file_path: str) -> str:
             # pdfminer fallback
             if len(text.strip()) < 800:
                 try:
-                    text = pdfminer_extract(file_path) or text
+                    mined = pdfminer_extract(file_path)
+                    if mined:
+                        text = mined
                     logger.debug(f"[read_resume] pdfminer -> {len(text)} chars")
                 except Exception as e:
                     logger.debug(f"[read_resume] pdfminer failed: {e}")
@@ -195,10 +207,27 @@ def read_resume(file_path: str) -> str:
             if len(text.strip()) < 800:
                 try:
                     reader = PdfReader(file_path)
-                    text = "\n".join([p.extract_text() or "" for p in reader.pages])
+                    text = "\n".join(p.extract_text() or "" for p in reader.pages)
                     logger.debug(f"[read_resume] PyPDF2 -> {len(text)} chars")
                 except Exception as e:
                     logger.debug(f"[read_resume] PyPDF2 failed: {e}")
+
+            # 🔥 OCR fallback (scanned PDFs)
+            if len(text.strip()) < 200:
+                try:
+                    from pdf2image import convert_from_path
+                    import pytesseract
+
+                    ocr_text = ""
+                    pages = convert_from_path(file_path, dpi=300)
+                    for page in pages:
+                        ocr_text += pytesseract.image_to_string(page, lang="eng") + "\n"
+
+                    if ocr_text.strip():
+                        text = ocr_text
+                        logger.warning(f"[read_resume] OCR used -> {len(text)} chars")
+                except Exception as e:
+                    logger.debug(f"[read_resume] OCR PDF failed: {e}")
 
             return (text or "").strip()
 
@@ -221,7 +250,6 @@ def read_resume(file_path: str) -> str:
             except Exception as e:
                 logger.debug(f"[read_resume] antiword failed: {e}")
 
-            # LibreOffice fallback
             try:
                 tmp_txt = file_path + ".txt"
                 subprocess.run(
@@ -266,10 +294,10 @@ def read_resume(file_path: str) -> str:
         elif ext in (".png", ".jpg", ".jpeg"):
             try:
                 text = subprocess.check_output(["tesseract", file_path, "stdout"], text=True)
-                logger.debug(f"[read_resume] OCR -> {len(text)} chars")
+                logger.debug(f"[read_resume] OCR(image) -> {len(text)} chars")
                 return text.strip()
             except Exception as e:
-                logger.debug(f"[read_resume] OCR failed: {e}")
+                logger.debug(f"[read_resume] OCR(image) failed: {e}")
                 return ""
 
         # ---------------- UNKNOWN ----------------
@@ -280,6 +308,129 @@ def read_resume(file_path: str) -> str:
     except Exception as e:
         logger.error(f"[read_resume] failed for {file_path}: {e}")
         return ""
+
+
+# def read_resume(file_path: str) -> str:
+#     """
+#     Robust text extractor for resumes.
+#     Supports: .pdf, .docx, .doc, .rtf, .txt, images (.png/.jpg/.jpeg)
+#     Uses multiple fallbacks to maximize extraction success.
+#     Always returns a string.
+#     """
+#     try:
+#         ext = os.path.splitext(file_path)[1].lower()
+#         text = ""
+
+#         # ---------------- PDF ----------------
+#         if ext == ".pdf":
+#             # pdfplumber
+#             try:
+#                 with pdfplumber.open(file_path) as pdf:
+#                     for page in pdf.pages:
+#                         page_text = page.extract_text()
+#                         if page_text:
+#                             text += page_text + "\n"
+#                 logger.debug(f"[read_resume] pdfplumber -> {len(text)} chars")
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] pdfplumber failed: {e}")
+
+#             # pdfminer fallback
+#             if len(text.strip()) < 800:
+#                 try:
+#                     text = pdfminer_extract(file_path) or text
+#                     logger.debug(f"[read_resume] pdfminer -> {len(text)} chars")
+#                 except Exception as e:
+#                     logger.debug(f"[read_resume] pdfminer failed: {e}")
+
+#             # PyPDF2 fallback
+#             if len(text.strip()) < 800:
+#                 try:
+#                     reader = PdfReader(file_path)
+#                     text = "\n".join([p.extract_text() or "" for p in reader.pages])
+#                     logger.debug(f"[read_resume] PyPDF2 -> {len(text)} chars")
+#                 except Exception as e:
+#                     logger.debug(f"[read_resume] PyPDF2 failed: {e}")
+
+#             return (text or "").strip()
+
+#         # ---------------- DOCX ----------------
+#         elif ext == ".docx":
+#             try:
+#                 text = docx2txt.process(file_path) or ""
+#                 logger.debug(f"[read_resume] docx2txt -> {len(text)} chars")
+#                 return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] docx2txt failed: {e}")
+#                 return ""
+
+#         # ---------------- DOC ----------------
+#         elif ext == ".doc":
+#             try:
+#                 text = subprocess.check_output(["antiword", file_path], text=True)
+#                 logger.debug(f"[read_resume] antiword -> {len(text)} chars")
+#                 return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] antiword failed: {e}")
+
+#             # LibreOffice fallback
+#             try:
+#                 tmp_txt = file_path + ".txt"
+#                 subprocess.run(
+#                     ["soffice", "--headless", "--convert-to", "txt:Text", file_path, "--outdir", os.path.dirname(file_path)],
+#                     check=True,
+#                     stdout=subprocess.DEVNULL,
+#                     stderr=subprocess.DEVNULL,
+#                 )
+#                 if os.path.exists(tmp_txt):
+#                     with open(tmp_txt, "r", errors="ignore") as f:
+#                         text = f.read()
+#                     os.remove(tmp_txt)
+#                     logger.debug(f"[read_resume] libreoffice(.doc) -> {len(text)} chars")
+#                     return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] libreoffice(.doc) failed: {e}")
+
+#             return ""
+
+#         # ---------------- RTF ----------------
+#         elif ext == ".rtf":
+#             try:
+#                 text = subprocess.check_output(["unrtf", "--text", file_path], text=True)
+#                 logger.debug(f"[read_resume] unrtf -> {len(text)} chars")
+#                 return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] unrtf failed: {e}")
+#                 return ""
+
+#         # ---------------- TXT ----------------
+#         elif ext == ".txt":
+#             try:
+#                 with open(file_path, "r", errors="ignore") as f:
+#                     text = f.read()
+#                 logger.debug(f"[read_resume] txt -> {len(text)} chars")
+#                 return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] txt failed: {e}")
+#                 return ""
+
+#         # ---------------- IMAGES (OCR) ----------------
+#         elif ext in (".png", ".jpg", ".jpeg"):
+#             try:
+#                 text = subprocess.check_output(["tesseract", file_path, "stdout"], text=True)
+#                 logger.debug(f"[read_resume] OCR -> {len(text)} chars")
+#                 return text.strip()
+#             except Exception as e:
+#                 logger.debug(f"[read_resume] OCR failed: {e}")
+#                 return ""
+
+#         # ---------------- UNKNOWN ----------------
+#         else:
+#             logger.debug(f"[read_resume] unsupported file type: {file_path}")
+#             return ""
+
+#     except Exception as e:
+#         logger.error(f"[read_resume] failed for {file_path}: {e}")
+#         return ""
 
 
 def quick_extract_email(file_path: str) -> Optional[str]:
