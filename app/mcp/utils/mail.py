@@ -30,3 +30,4 @@ def send_mail(
         smtp.send_message(msg)
 
     logger.info(f"Mail sent to {to_email}")
+
