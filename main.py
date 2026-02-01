@@ -18,7 +18,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.concurrency import run_in_threadpool
 
 # =========================================================
-# Logging
+# Logging Naga
 # =========================================================
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("primehire")
@@ -93,7 +93,7 @@ from app.mcp.tools import (
 )
 
 # =========================================================
-# Routers
+# Routers Naga
 # =========================================================
 app.include_router(candidate_validation.router, prefix="/mcp/tools/candidate_validation")
 app.include_router(resume_tool.router, prefix="/mcp/tools/resume")
